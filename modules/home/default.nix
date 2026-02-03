@@ -4,6 +4,7 @@
   imports = [
     ./shell.nix
     ./lazyvim.nix
+    ./nh.nix
   ];
 
   home = {
@@ -11,7 +12,6 @@
     homeDirectory = "/home/colbary";
     stateVersion = "25.05";
     packages = with pkgs; [
-      statix
     ];
   };
 }

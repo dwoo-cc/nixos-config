@@ -13,6 +13,7 @@
     extraPackages = with pkgs; [
       # LSP servers
       nixd
+      statix
       # Formatters
       black
       alejandra
